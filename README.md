@@ -1,2 +1,5 @@
-# iview-theme
-Theme generator for iview-ui
+# viewUI 的样式编辑
+
+* 此项目从viewUI源码中剥离出来的，只是删除了除样式之外的源码。
+* 需要使用 npm ，不要使用 yarn。
+* 如果仍报错，请使用 nodejs <= 10 的版本
