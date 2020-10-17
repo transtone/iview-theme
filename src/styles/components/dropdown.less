@@ -33,6 +33,10 @@
     &-item-selected, &-item&-item-selected:hover{
         background:  ~`colorPalette("@{primary-color}", 1)`;
     }
+    &-item&-item:hover {
+       background: @link-hover-color;
+       color: @link-color;
+    }
 }
 
 .select-item(@dropdown-prefix-cls, @dropdown-item-prefix-cls);
